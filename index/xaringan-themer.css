@@ -140,7 +140,7 @@ a, a > code {
 }
 .title-slide {
   background-color: var(--title-slide-background-color);
-  background-image: url("hands_icon.png");
+  background-image: url("title.png");
   background-size: cover;
 }
 .title-slide .remark-slide-number {

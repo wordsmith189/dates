@@ -1,9 +1,9 @@
 ---
-title: "Meeting Dr. Hinrichs"
-subtitle: "Spanish & Portuguese Research Colloquium"
+title: "DATES"
+subtitle: "Digital Archive of Texas English Speech"
 author: 
-  - "Lars Hinrichs"
-date: "Feb-11-2022"
+  - "Prof. Lars Hinrichs (English)"
+date: "Feb-16-2022"
 output:
   xaringan::moon_reader:
     css: [xaringan-themer.css, footer-header.css, my_theme.css]
@@ -42,7 +42,7 @@ xaringanExtra::use_tile_view()
 library(xaringanthemer)
 style_mono_light(base_color = "#23395b",
   inverse_header_color = "#FFFFFF",
-  title_slide_background_image = "hands_icon.png",
+  title_slide_background_image = "title.png",
   header_font_google = google_font("Josefin Sans", "600"),
   text_font_google   = google_font("Josefin Sans", "300", "300i"),
   code_font_google   = google_font("Fira Mono"),
