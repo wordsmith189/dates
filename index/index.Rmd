@@ -1,0 +1,65 @@
+---
+title: "Meeting Dr. Hinrichs"
+subtitle: "Spanish & Portuguese Research Colloquium"
+author: 
+  - "Lars Hinrichs"
+date: "Feb-11-2022"
+output:
+  xaringan::moon_reader:
+    css: [xaringan-themer.css, footer-header.css, my_theme.css]
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      ratio: 16:9
+      countIncrementalSlides: false
+---
+layout: true
+
+<div class="my-footer"><span class="highlight-front">slides:&emsp;<a href="http://hinrichs-research.netlify.app">hinrichs-research.netlify.app</a>&emsp;|&emsp;web:&emsp;<a href="https://larshinrichs.site">larshinrichs.site</a></span></div> 
+
+---
+class: middle
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = TRUE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_mono_light(base_color = "#23395b",
+  inverse_header_color = "#FFFFFF",
+  title_slide_background_image = "hands_icon.png",
+  header_font_google = google_font("Josefin Sans", "600"),
+  text_font_google   = google_font("Josefin Sans", "300", "300i"),
+  code_font_google   = google_font("Fira Mono"),
+  text_font_size = '1.9em',
+  code_font_size = '0.7em'
+)
+```
+
+```{r xaringanExtra, echo=FALSE}
+xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
+```
+
+
+## Outline
+
+1. Diaspora Sociolinguistics
+1. Variation & change in Texas English
+1. E 382J/INF 385T Digital Text Analysis
+
+---
