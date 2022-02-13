@@ -1,2 +1,3 @@
 # dates 
-hi
+
+slides available at https://tell-dates.netlify.app 
