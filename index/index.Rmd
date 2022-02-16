@@ -16,7 +16,7 @@ output:
 ---
 layout: true
 
-<div class="my-footer"><span class="highlight-front">slides:&emsp;<a href="http://hinrichs-research.netlify.app">hinrichs-research.netlify.app</a>&emsp;|&emsp;web:&emsp;<a href="https://larshinrichs.site">larshinrichs.site</a></span></div> 
+<div class="my-footer"><span class="highlight-front">slides:&emsp;<a href="https://tell-dates.netlify.app">tell-dates.netlify.app</a>&emsp;|&emsp;web:&emsp;<a href="https://larshinrichs.site">larshinrichs.site</a></span></div> 
 
 ---
 class: middle
@@ -32,10 +32,9 @@ knitr::opts_chunk$set(
   warning = FALSE,
   hiline = TRUE
 )
-```
 
-```{r xaringan-tile-view, echo=FALSE}
-xaringanExtra::use_tile_view()
+require(pacman)
+p_load(tidyverse, here)
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
@@ -47,19 +46,157 @@ style_mono_light(base_color = "#23395b",
   text_font_google   = google_font("Josefin Sans", "300", "300i"),
   code_font_google   = google_font("Fira Mono"),
   text_font_size = '1.9em',
-  code_font_size = '0.7em'
+  code_font_size = '0.7em',
+  colors = c(white = "#FFFFFF")
 )
+```
+
+```{r xaringan-tile-view, echo=FALSE}
+xaringanExtra::use_tile_view()
 ```
 
 ```{r xaringanExtra, echo=FALSE}
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
+```{r xaringan-scribble, echo=FALSE}
+xaringanExtra::use_scribble()
+```
 
-## Outline
+<!-- ############## USE ABOVE AS TEMPLATE ############## -->
 
-1. Diaspora Sociolinguistics
-1. Variation & change in Texas English
-1. E 382J/INF 385T Digital Text Analysis
+## The "Digital Archive of Texas English Speech"
+
+1. What is DATES?
+1. The topic: analog legacy data
+1. DATES: Look and listen
+1. The Low Back Merger in Texas English
+1. *News of the World*
+1. Funding
 
 ---
+class: inverse, middle, center
+
+# Analog legacy data
+
+---
+## Archival challenges
+
+- digitization
+
+--
+
+- metadata availability
+
+- metadata cataloguing
+
+--
+
+- transcription
+
+--
+
+- spectrographic analysis
+
+--
+
+- access
+
+---
+class: inverse, middle, center
+
+# DATES: Look and listen
+
+---
+class: center, middle
+
+<img src="img/tell_collections.png" width=76% />
+
+---
+class: center, middle
+
+## [The Willard Collection](https://sites.google.com/view/tell-archive/about)
+
+---
+
+## Challenges in creating a balanced sample of TxE speech
+
+"Balanced"
+
+- gender
+- age
+- ethnic identity
+
+---
+
+## How to redress demographic imbalance, maybe
+
+
+.pull-left[
+[<img src="img/pam.png" width="390" />](https://twitter.com/ut_english/status/1493595931668885506)
+<br />
+]
+
+--
+
+.pull-right[
+<img src="img/briscoe.png" width=300 />
+
+[Pam's oral history at the Briscoe Center](https://digitalcollections.briscoecenter.org/item/419256)
+]
+---
+class: middle
+
+## The oldest speaker in the collection
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/buQENTEV7-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p> .small[Mrs. Sarah Eager, interviewed by WOAI San Antonio<br>in February 1942 on her 100th birthday] 
+
+---
+class: middle
+
+## The 1980s speakers
+
+[1980s: Underwood Collection](https://utexas.box.com/s/hh836rcm95smg17zgyuspt3q5ep2o6gs) .small[(protected folder)]
+
+---
+class: inverse, middle, center
+
+# What do people do with DATES?
+
+---
+## Primary purpose: linguistic study
+
+Studying language variation: real vs. apparent time
+
+--
+
+<img src="img/lbms.jpeg" width=600 />
+
+---
+class: middle, center
+
+.small[Recent conference paper: Bohmann & Hinrichs 2021]
+<br>
+<img src="img/lbm.png" width=800 />
+
+---
+class: middle
+
+## *News of the World* with Tom Hanks (2021)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zTZDb_iKooI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+class: middle, center
+
+background-image: url("img/cowboy.jpeg")
+background-size: cover
+
+<br /><br />
+.white.large.bold[Thank y'all!]
+
+
+
+
