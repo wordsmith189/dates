@@ -174,7 +174,7 @@ class: middle
 ]
 
 .pull-right[
-- Maverick Carter House (San Antonio, TX)
+Maverick Carter House (San Antonio, TX)
 
   <img src="img/mav.jpeg" width=300 />
 
