@@ -172,7 +172,7 @@ class: middle
 
 
 .small[
-<p>Mrs. Sarah Eager, interviewed by WOAI San Antonio in February 1942 on her 100th birthday] 
+<p>Mrs. Sarah Eagar, interviewed by WOAI San Antonio in February 1942 on her 100th birthday] 
 ]
 
 .pull-right[
