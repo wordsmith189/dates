@@ -59,9 +59,19 @@ xaringanExtra::use_tile_view()
 xaringanExtra::use_xaringan_extra(c("tile_view", "animate_css", "tachyons"))
 ```
 
-```{r xaringan-scribble, echo=FALSE}
+```{r xaringan-scribble, echo=FALSE, eval=FALSE}
+
+# currently turned off!
+
 xaringanExtra::use_scribble()
 ```
+
+```{r xaringan-logo, echo=FALSE}
+xaringanExtra::use_logo(
+  image_url = "img/tell.png",
+)
+```
+
 
 <!-- ############## USE ABOVE AS TEMPLATE ############## -->
 
@@ -120,17 +130,25 @@ class: center, middle
 
 ---
 
-## Challenges in creating a balanced sample of TxE speech
+## Challenges in creating <br>a balanced sample of TxE speech
 
-"Balanced"
+"Balanced" - in what sense?
+
+--
 
 - gender
+
+--
+
 - age
+
+--
+
 - ethnic identity
 
 ---
 
-## How to redress demographic imbalance, maybe
+## How to redress demographic <br>imbalance, maybe
 
 
 .pull-left[
@@ -150,10 +168,17 @@ class: middle
 
 ## The oldest speaker in the collection
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/buQENTEV7-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+.pull-left[<iframe width="560" height="315" src="https://www.youtube.com/embed/buQENTEV7-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <p> .small[Mrs. Sarah Eager, interviewed by WOAI San Antonio<br>in February 1942 on her 100th birthday] 
+]
 
+.pull-right[
+- Maverick Carter House (San Antonio, TX)
+
+  <img src="img/mav.jpeg" width=300 />
+
+]
 ---
 class: middle
 
@@ -202,14 +227,6 @@ class: inverse, middle, center
 --
 
 - VW Foundation (Hannover, Germany)
-
---
-
-- Maverick Carter House (San Antonio, TX)
-
-  <img src="img/mav.jpeg" width=300 />
-
-
 
 
 
