@@ -181,6 +181,45 @@ Maverick Carter House (San Antonio, TX)
   <img src="img/mav.jpeg" width=300 />
 
 ]
+
+---
+
+## Sarah Eagar (1842-1947)
+
+.pull-left[
+
+### The Riddle/Eagars: A well-known family
+
+[A Guide to the Riddle and Eagar Families Papers,
+1840-1945](https://txarchives.org/drtsa/finding_aids/00054.xml) <br>.small[UT Libraries/Texas Archival Resources Online]
+
+]
+
+.pull-right[
+.center[<img src="img/sarah.jpeg" width=380 />
+<br>
+<img src="img/sarah_caption.png" width=420 />]
+
+]
+
+---
+
+### From Carter Brown (Sep. 2021)
+
+
+
+.pull-left[.small[
+
+`r fontawesome::fa(name = "fas fa-quote-left")`
+A couple years ago we digitized the 16" Transcription record and found it to feature our third great grandmother, Sarah Elizabeth Riddle Eagar.  Sarah was born in San Antonio in 1842 and died there at the age of 105 in 1947...
+
+Sarah's mother, Elizabeth Menefee, was born in Virginia and lived in Tennessee for a time before moving to Texas in 1841. Sarah's father, Wilson Riddle, was born in Ballyblack,]] 
+
+.pull-right[.small[
+<img src="img/record.png" width=140 style="padding: 20px; float: right;" />
+Northern Ireland and moved to Pennsylvania at around the age of 12. Later he moved to Tennessee and finally Texas in 1839. Sarah was the first girl born to (white) American settlers of early San Antonio (surviving adulthood). Her early childhood education came from the Ursuline Academy in San Antonio. Later education included Athens Female Institute in Alabama and the Bascom Female Seminary in Mississippi. `r fontawesome::fa(name = "fas fa-quote-right")`
+]]
+
 ---
 class: middle
 
